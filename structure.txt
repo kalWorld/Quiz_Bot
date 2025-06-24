@@ -1,0 +1,34 @@
+
+
+
+productivity-dashboard-app/
+│
+├── signup.html           ← Signup page
+├── login.html            ← Login page
+├── dashboard.html        ← Main app page
+│
+├── style.css             ← CSS for all pages
+│
+├── js/                   ← Folder for JavaScript files
+│   ├── signup.js         ← JavaScript for signup page
+│   ├── login.js          ← JavaScript for login page
+│   └── dashboard.js      ← JavaScript for dashboard page
+│
+└── assets/               ← (Optional) for images, icons, etc.
+    └── logo.png          ← Example image file
+
+
+
+
+
+
+| File/Folder       | What it's for                            |
+| ----------------- | ---------------------------------------- |
+| `signup.html`     | Create new account                       |
+| `login.html`      | Log in to your account                   |
+| `dashboard.html`  | The actual productivity app              |
+| `style.css`       | Common styles for all pages              |
+| `js/signup.js`    | JS code to handle signup and store data  |
+| `js/login.js`     | JS code to handle login and verification |
+| `js/dashboard.js` | JS code for to-do list, timer, etc.      |
+| `assets/`         | Optional folder for images/icons         |
